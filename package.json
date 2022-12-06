@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@types/jest": "^29.2.4",
     "@types/react": "~18.0.24",
     "@types/react-native": "~0.70.6",
     "detox": "^20.0.3",
