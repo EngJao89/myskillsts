@@ -49,12 +49,15 @@ export function Home(){
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome João Ricardo</Text>
+      <Text style={styles.title} testID="welcome">
+        Welcome João Ricardo
+      </Text>
       <Text style={styles.greetings}>
         {gretting}
       </Text>
 
       <TextInput 
+        testID="input-new"
         style={styles.input}
         placeholder="New Skill"
         placeholderTextColor="#555"
@@ -62,6 +65,7 @@ export function Home(){
       />
 
       <Button 
+        testID="button-add"
         title="Add"
         onPress={handleAddNewSkill} 
         activeOpacity={0.7}
